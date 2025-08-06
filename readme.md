@@ -51,9 +51,8 @@ Click Execute to see the chatbot's response powered by Mistral + LangChain
 
 📁 Project Structure (optional to include)
 
-visionq-chatbot/
+visionQ-chatbot/
 ├── main.py           # FastAPI app
 ├── scrape.py         # Web scraping logic
 ├── clean.py          # Text cleaning and formatting
-├── vector_store/     # FAISS index & embeddings
 ├── requirements.txt  # Python dependencies
