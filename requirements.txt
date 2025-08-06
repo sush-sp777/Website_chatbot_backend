@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-core
+sentence-transformers
+faiss-cpu
+ollama
+langchain-ollama
+pydantic
