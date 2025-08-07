@@ -1,7 +1,7 @@
-# 🧠 VisionQ Chatbot (RAG using Mistral + FastAPI + LangChain)
+# 🧠 Website Chatbot (RAG using Mistral + FastAPI + LangChain)
 
 This project is an intelligent chatbot built using **FastAPI** and **LangChain**, powered by **Mistral via Ollama**.  
-It performs Retrieval-Augmented Generation (RAG) by scraping and embedding data from the **VisionQ Technology** website using **FAISS**, and serves context-specific responses via a REST API.
+It performs Retrieval-Augmented Generation (RAG) by scraping and embedding data from the website using **FAISS**, and serves context-specific responses via a REST API.
 
 ---
 
@@ -45,13 +45,11 @@ Once the server is running, open your browser and go to:
 
 Under the /chat POST endpoint, click "Try it out"
 
-Enter your question in the user_query field (e.g., "Where is VisionQ Technology located?")
-
 Click Execute to see the chatbot's response powered by Mistral + LangChain
 
 📁 Project Structure (optional to include)
 
-visionQ-chatbot/
+chatbot/
 ├── main.py           # FastAPI app
 ├── scrape.py         # Web scraping logic
 ├── clean.py          # Text cleaning and formatting
